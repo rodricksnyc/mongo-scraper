@@ -35,7 +35,8 @@ app.get("/", function (req, res) {
 });
 
 
-
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://elizabethrodricks:elizabeth123@ds111204.mlab.com:11204/elizabethmongoscraper');
 
 
 
